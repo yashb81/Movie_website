@@ -2,7 +2,12 @@ import webbrowser
 
 
 class Movie():
-    # This class contains 2 methods
+    """
+    This class contains 2 methods and in those methods,
+    this class stores the movie data such as,
+    movie title, its storyline, its poster url and
+    its trailer url.
+    """
     def __init__(self, m_t, m_s, p_i, t_y):
         # This method sets the values of the variables
         # title, storyline, poster_image_url and trailer_youtube_url
